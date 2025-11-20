@@ -1,6 +1,6 @@
 # BM0_Mad_lib
 For BM # 0 creating Mad-Lib
 
-I am only doing this for the grade
-Can we start BM0
-WHat time do we leave school tomorrow
+I AM ONLY DOING THIS FOR THE GRADE
+WHAT TIME DO WE LEAVE TOMORROW
+	
