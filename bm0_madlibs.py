@@ -7,7 +7,7 @@ def play():
 	noun = input('Please enter a noun: ')
 	adjective = input('Please enter an adjective: ')
 
-	stories = ['story1', 'story2', 'story3']
+	stories = ['story1', 'story2', 'story3', 'story4']
 
 	story = random.choice(stories)
 
@@ -24,10 +24,14 @@ def play():
 		print(f'Osei is {adjective}')
 		print(f'Because he forgot to {verb} his {noun}')
 
+	elif story == 'story4':
+		print(f'When I {verb} up I want to be a {adjective} {noun}')
+
 while gameOn == True:
 	play()
 	playAgain = input('Play Again?(y/n): ')
 	if playAgain == 'n':
+		print('Thanks for Playing')
 		gameOn = False
 	else:
 		gameOn = True
