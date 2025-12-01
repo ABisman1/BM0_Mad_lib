@@ -14,7 +14,7 @@ def play():
 	if story == 'story1':
 		print('Once Upon a time there was a ' + adjective + ' princess')
 		print('This princess lived in a ' + noun)
-		print('This princess loved to ' + run)
+		print('This princess loved to ' + verb)
 
 	elif story == 'story2':
 		print('When I go to the beach I love to ' + verb)
@@ -26,5 +26,9 @@ def play():
 
 while gameOn == True:
 	play()
-	gameOn = False
+	playAgain = input('Play Again?(y/n): ')
+	if playAgain == 'n':
+		gameOn = False
+	else:
+		gameOn = True
 
