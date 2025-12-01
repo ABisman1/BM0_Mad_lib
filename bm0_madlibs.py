@@ -25,7 +25,7 @@ def play():
 		print(f'Because he forgot to {verb} his {noun}')
 
 	elif story == 'story4':
-		print(f'When I grow up I want to be a {adjective} {noun} who loves to {verb}s')
+		print(f'When I grow up I want to be a {adjective} {noun} who loves to {verb}')
 
 while gameOn == True:
 	play()
