@@ -22,7 +22,7 @@ def play():
 
 	elif story == 'story3':
 		print(f'Osei is {adjective}')
-		print(f'Because he forgot to {verb} his {noun}')
+		print(f'Because he to {verb} his {noun}')
 
 	elif story == 'story4':
 		print(f'When I grow up I want to be a {adjective} {noun} who loves to {verb}')
