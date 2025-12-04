@@ -14,6 +14,8 @@ red_button = Button(root, text="Red", background='red')
 yellow_button = Button(root, text="Yellow", background='yellow')
 green_button = Button(root, text="Green", background='green')
 
+text_box = T = Text(root)
+
 #Add a label
 label = Label(root, text="this is a stoplight")
 
@@ -22,6 +24,7 @@ red_button.pack()
 yellow_button.pack()
 green_button.pack()
 label.pack()
+text_box.pack()
 
 # Start the GUI event loop
 root.mainloop()
