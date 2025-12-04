@@ -4,7 +4,7 @@ from tkmacosx import Button
 
 # Create the main window
 root = Tk()
-root.title("Enter Title Here")
+root.title("Stoplight/GUI Practice")
 
 #Set size of window
 root.geometry("300x150")
