@@ -15,7 +15,7 @@ yellow_button = Button(root, text="Yellow", background='yellow')
 green_button = Button(root, text="Green", background='green')
 white_button = Button(root, text="Color of LIGHT")
 
-#text_box = T = Text(root)
+text_box = T = Text(root)
 
 #Add a label
 label = Label(root, text="What color is the light!?")
