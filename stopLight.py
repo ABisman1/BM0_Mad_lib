@@ -15,18 +15,18 @@ yellow_button = Button(root, text="Yellow", background='yellow')
 green_button = Button(root, text="Green", background='green')
 white_button = Button(root, text="Color of LIGHT")
 
-text_box = T = Text(root)
+text_box = Text(root, width= 50, height = 10)
 
 #Add a label
 label = Label(root, text="What color is the light!?")
 
 # Place widgets in window (with pack function!)
-red_button.grid(row=0,column=0,padx=5,pady=5)
-yellow_button.grid(row=0,column=1,padx=5,pady=5)
-green_button.grid(row=0,column=2,padx=5,pady=5)
+red_button.grid(row=0,column=0)
+yellow_button.grid(row=0,column=1)
+green_button.grid(row=0,column=2)
 white_button.grid(row=3,column=0)
-label.grid(row=2,column=1,pady=20)
-text_box.grid(row=3,column=1,columnspan=2,padx=5)
+label.grid(row=2,column=1)
+text_box.grid(row=3,column=1,columnspan=2)
 
 # Start the GUI event loop
 root.mainloop()
