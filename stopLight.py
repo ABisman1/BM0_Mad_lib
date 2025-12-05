@@ -25,7 +25,7 @@ red_button.grid(row=0,column=1,padx=10,pady=10)
 yellow_button.grid(row=0,column=2,padx=10,pady=10)
 green_button.grid(row=0,column=3,padx=10,pady=10)
 #white_button.pack()
-label.grid(row=2,column=2,pacy=20)
+label.grid(row=2,column=2,pady=20)
 #text_box.pack()
 
 # Start the GUI event loop
