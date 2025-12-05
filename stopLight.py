@@ -20,9 +20,9 @@ green_button = Button(root, text="Green", background='green')
 #label = Label(root, text="this is a stoplight")
 
 # Place widgets in window (with pack function!)
-red_button.grid(row=0,column=0)
-yellow_button.grid(row=0,column=1)
-green_button.grid(row=0,column=2)
+red_button.grid(row=0,column=0,padx=2,pady=2)
+yellow_button.grid(row=0,column=1,padx=2,pady=2)
+green_button.grid(row=0,column=2,padx=2,pady=2)
 #label.pack()
 #text_box.pack()
 
