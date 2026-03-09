@@ -27,4 +27,4 @@ for (text, value) in values.items():
 # Infinite loop can be terminated by
 # keyboard or mouse interrupt
 # or by any predefined function (destroy())
-master.mainloop()
+mainloop()
